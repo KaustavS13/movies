@@ -59,19 +59,19 @@
 .dark-theme{
   --primary-color: #000000;
   --secondary-color: #f0f0f0; 
-  --text-color: rgb(0, 0, 0);
-  --background: rgb(255, 255, 255);
+  --text-color: rgb(255, 255, 255);
+  --background: rgb(22, 20, 20);
   --banner-background: rgb(187, 2, 48);
-  --white-alpha-20: hsla(0, 18%, 24%, 0.2);
+  --white-alpha-20: hsla(0, 100%, 99%, 0.2);
   --on-background: rgb(119, 0, 255);
-  --on-surface: rgb(13, 11, 19);
+  --on-surface: rgb(240, 234, 255);
   --on-surface-variant: rgb(229, 255, 0);
   --primary: hsla(349, 100%, 43%, 1);
-  --primary-variant: rgb(0, 0, 0);
+  --primary-variant: rgb(255, 255, 255);
   --rating-color: rgb(229, 255, 0);
-  --surface: rgb(245, 245, 245);
-  --text-color: rgb(255, 255, 255);
-  --white: rgb(245, 238, 238);
+  --surface: rgb(0, 0, 0);
+  --text-color: rgb(0, 0, 0);
+  --white: rgb(2, 2, 2);
   }
 
 
