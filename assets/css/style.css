@@ -455,6 +455,9 @@ select:-moz-focusring {
 .header .logo img{
   width: 75%;
 }
+.header .logo img:hover {
+  transform: scale(1.2); 
+}
 
 #logo{
   height: 20px;
