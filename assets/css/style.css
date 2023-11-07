@@ -8,7 +8,7 @@
    /*Background color */
   --background: rgb(255, 255, 255);
   --banner-background: rgb(187, 2, 48);
-  --white-alpha-20: hsla(0, 18%, 24%, 0.2);
+  --white-alpha-20: hsl(0, 0%, 100%);
   --on-background: rgb(119, 0, 255);
   --on-surface: rgb(13, 11, 19);
   --on-surface-variant: rgb(229, 255, 0);
