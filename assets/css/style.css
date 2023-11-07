@@ -1,21 +1,21 @@
 /* CUSTOM PROPERTY */
 
 :root{
-  --primary-color: #eee3e3;
-  --secondary-color: #220f0f;
+  --primary-color: #ffffff;
+  --secondary-color: #0f0f0f;
  
 
    /*Background color */
-  --background: rgb(221, 179, 39);
+  --background: rgb(255, 255, 255);
   --banner-background: rgb(187, 2, 48);
   --white-alpha-20: hsla(0, 18%, 24%, 0.2);
-  --on-background: rgb(13, 14, 15);
+  --on-background: rgb(119, 0, 255);
   --on-surface: rgb(13, 11, 19);
-  --on-surface-variant: rgb(24, 5, 5);
+  --on-surface-variant: rgb(229, 255, 0);
   --primary: hsla(349, 100%, 43%, 1);
   --primary-variant: rgb(0, 0, 0);
-  --rating-color: hsla(44, 100%, 49%, 1);
-  --surface: rgb(167, 78, 6);
+  --rating-color: rgb(229, 255, 0);
+  --surface: rgb(245, 245, 245);
   --text-color: rgb(255, 255, 255);
   --white: rgb(245, 238, 238);
 
@@ -25,7 +25,7 @@
  
   /* Gradient color */
     --banner-overlay: 90deg, hsl(220, 17%, 7%) 0%, hsla(220, 17%, 7%, 0.5) 100%;
-    --bottom-overlay: 180deg, hsla(250, 13%, 11%, 0), hsla(250, 13%, 11%, 1);
+    --bottom-overlay: 180deg, hsla(0, 0%, 0%, 0), hsla(250, 13%, 11%, 1);
 
   /* Typography */
   --ff-dm-sans: 'DM Sans', sans-serif;
@@ -57,9 +57,21 @@
 
 
 .dark-theme{
-  --primary-color: #200909;
+  --primary-color: #000000;
   --secondary-color: #f0f0f0; 
   --text-color: rgb(0, 0, 0);
+  --background: rgb(255, 255, 255);
+  --banner-background: rgb(187, 2, 48);
+  --white-alpha-20: hsla(0, 18%, 24%, 0.2);
+  --on-background: rgb(119, 0, 255);
+  --on-surface: rgb(13, 11, 19);
+  --on-surface-variant: rgb(229, 255, 0);
+  --primary: hsla(349, 100%, 43%, 1);
+  --primary-variant: rgb(0, 0, 0);
+  --rating-color: rgb(229, 255, 0);
+  --surface: rgb(245, 245, 245);
+  --text-color: rgb(255, 255, 255);
+  --white: rgb(245, 238, 238);
   }
 
 
@@ -136,7 +148,7 @@ select {
     background-position: calc(100% - 10px),calc(100% - 5px),calc(100% - 20px);
     background-size: 5px 5px, 5px 5px, 1px 1.5em;
     background-repeat: no-repeat;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     width: 130px;
 }
 select:focus{
@@ -156,7 +168,7 @@ select:focus{
 }
 select:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #000;
+  text-shadow: 0 0 0 #c5c5c5;
 }
 /* 
 #REUSED STYLE 
