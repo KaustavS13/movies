@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
 :root {
-  --primary: hsla(349, 100%, 43%, 1);
-  --primary-variant: hsla(349, 69%, 51%, 1);
+  --primary: rgb(163, 0, 30);
+  --primary-variant: rgb(146, 0, 27);
 }
 
 * {
@@ -19,7 +19,7 @@ input {
 .container {
   position: relative;
   width: 100%;
-  background-color: #fff;
+  background-color: #221d35;
   min-height: 100vh;
   overflow: hidden;
 }
