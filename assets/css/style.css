@@ -69,7 +69,7 @@
   --primary: hsla(349, 100%, 43%, 1);
   --primary-variant: rgb(255, 255, 255);
   --rating-color: rgb(229, 255, 0);
-  --surface: rgb(0, 0, 0);
+  --surface: rgb(255, 255, 255);
   --text-color: rgb(255, 255, 255);
   --white: rgb(2, 2, 2);
   }
