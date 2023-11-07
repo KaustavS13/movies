@@ -459,7 +459,7 @@ select:-moz-focusring {
   transform: scale(1.2); 
 }
 .header .logo:hover{
-  transform: scale(1.5);
+  transform: scale(2.5);
 }
 
 #logo{
